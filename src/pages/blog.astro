@@ -1,14 +1,7 @@
 ---
 const pageTitle = "Mon blog d'apprentissage Astro";
 
-const identity = {
-  firstName: "Antoine",
-  country: "France",
-  occupation: "Stagiaire",
-  hobbies: ["Sport", "Jeux vidéos"],
-};
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Rédaction de documentation"];
 ---
 
 
@@ -26,18 +19,6 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Rédaction de do
         <a href="/blog/">Blog</a>
 
 		<h1>{pageTitle}</h1>
-
-		<p>Voici quelques faits me concernant</p>
-		<ul>
-			<li>Je m'appel {identity.firstName}.</li>
-			<li>Je vis en {identity.country} et je travail en que {identity.occupation}.</li>
-			{identity.hobbies.length >= 2 && <li>Deux de mes loisirs sont : {identity.hobbies[0]} et {identity.hobbies[1]} </li>}
-		</ul>
-
-		<p>Voici mes compétences</p>
-		<ul>
-			{skills.map((skill) => <li>{skill}</li>)}
-		</ul>
 
 		<ul>
             <li><a href="/posts/post-1/">Article 1</a></li>

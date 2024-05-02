@@ -7,5 +7,7 @@ image:
     alt: "Vignette des rayons Astro."
 pubDate: 2022-07-15
 tags: ["astro", "apprentissage en public", "obstacles", "communauté"]
+
+layout: ../../layouts/MarkdownPostLayout.astro
 ---
 Ce n'était pas toujours tout rose, mais j'adore construire avec Astro. Et, la [communauté Discord](https://astro.build/chat) est vraiment sympathique et serviable !
